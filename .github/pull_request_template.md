@@ -1,6 +1,6 @@
 ## 문제
 
-[10809 알파벳 찾기](https://www.acmicpc.net/problem/10809)
+[11720 알파벳 찾기](https://www.acmicpc.net/problem/11720)
 
 <!-- 문제 제목이랑 링크를 달아주세요 -->
 
