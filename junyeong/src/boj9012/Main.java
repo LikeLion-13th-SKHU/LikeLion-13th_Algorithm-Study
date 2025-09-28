@@ -32,7 +32,7 @@ public class Main {
                     isValid = false;
                 }
 
-                System.out.println(isValid ? "YES" : "No");
+                System.out.println(isValid ? "YES" : "NO");
 
 
 
