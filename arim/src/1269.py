@@ -2,7 +2,7 @@ import sys
 
 input = sys.stdin.readline
 
-_ = input()
+n = input()
 
 A = set(map(int, input().split()))
 B = set(map(int, input().split()))
