@@ -22,4 +22,4 @@ for i in range(1, m - a + 1):
     if current_sum > max_sum:
         max_sum = current_sum
         
-print(max_sum)
+print(max_sum) 
