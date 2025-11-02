@@ -30,7 +30,7 @@ public class Main {
         // 슬라이딩 윈도우 이동
         for (int i = k; i < n; i++) {
             sum = sum - temp[i - k] + temp[i]; // 이전 구간의 왼쪽 값 빼고, 새 값 더하기
-            max = Math.max(max, sum);
+            max = Math.max(max, sum); // max값 갱신
         }
 
         System.out.println(max);
