@@ -20,6 +20,6 @@ for i in range(1, m - a + 1):
     current_sum = current_sum - col_sums[i - 1] + col_sums[i + a - 1]
     
     if current_sum > max_sum:
-        max_sum = current_sum
+        max_sum = current_sum    
         
-print(max_sum) 
+print(max_sum)
