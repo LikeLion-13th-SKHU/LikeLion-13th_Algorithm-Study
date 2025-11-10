@@ -10,4 +10,4 @@ print(average)
 numbers.sort()
 
 median = numbers[2]
-print(median)
+print(median) 
