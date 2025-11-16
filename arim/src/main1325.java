@@ -26,7 +26,7 @@ public class main1325 {
             int currentNode = queue.poll();
             count++; // 큐에서 꺼낼 때 카운트
             
-            // 현재 컴퓨터와 연결된(해킹이 전파되는) 다음 컴퓨터들을 확인
+            // 현재 컴퓨터와 연결된 다음 컴퓨터들 확인
             for (int nextNode : graph[currentNode]) {
                 if (!visited[nextNode]) {
                     visited[nextNode] = true;
@@ -78,3 +78,4 @@ public class main1325 {
         System.out.println(sb.toString().trim());
     }
 }
+
